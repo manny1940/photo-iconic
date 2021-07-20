@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* list-style: none; */
+    box-sizing: border-box;
+    background-color: #24252a;
+}
+
+li, a, button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    width: 100%;
+}
+
+.logo{
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: bold;
+}
+
+.logo .logo-text{
+    color: white;
+}
+
+.logo .logo-text-2{
+    color: aqua;
+    font-weight: lighter;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #118ab2;
+}
+
+button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #023047;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: #219ebc;
+}
+
+/* -------home section style start--------- */
+.home-content{
+    display: flex;
+    background-color: #023047;
+    height: 670px;
+}
+
+.home-content .home-content-text{
+    margin: 10px 20px 10px 50px;
+    height: 650px;
+    width: 50%;
+    align-items: center;
+}
+
+.home-content .home-content-text .home-content-text-heading{
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 50px;
+    /* padding: 20px 50px; */
+    align-items: center;
+}
+
+.home-content .home-content-image{
+    margin: 10px 50px 10px 20px;
+    height: 650px;
+    width: 50%;
+    align-items: center;
+}
+
+/* -------home section style end--------- */
+
+
+/* -------gallery section style start--------- */
+
+
+
+/* -------gallery section style end--------- */
+
+
+/* -------services section style start--------- */
+
+
+
+/* -------services section style end--------- */
+
+
+/* -------about section style start--------- */
+
+
+
+/* -------about section style end--------- */
